@@ -14,6 +14,16 @@ import DestructDemoFun from './Component/Destructing/DestructDemoFun';
 import StateDemoFun1 from './Component/State/StateDemoFun1';
 import EBinding1 from './Component/EventBindings/EBinding1';
 import EBinding2 from './Component/EventBindings/EBinding2';
+import Ebinding3 from './Component/EventBindings/Ebinding3';
+import EBinding4 from './Component/EventBindings/EBinding4';
+import ParentComp from './Component/PassingMethodAsProps/ParentComp';
+import CRender1 from './Component/ConditionalRendring/CRender1';
+import CRender2 from './Component/ConditionalRendring/CRender2';
+import CRender3 from './Component/ConditionalRendring/CRender3';
+import CRender4 from './Component/ConditionalRendring/CRender4';
+import Array1 from './Component/ArrayMapMethod/Array1';
+import Array2 from './Component/ArrayMapMethod/Array2';
+import Array3 from './Component/ArrayMapMethod/Array3';
 
 function App() {
   return (
@@ -55,6 +65,26 @@ function App() {
      <EBinding1/>
      <hr/>
      <EBinding2/>
+     <hr/>
+     <Ebinding3/>
+     <hr/>
+     <EBinding4/>
+     <hr/>
+     <ParentComp/>
+     <hr/>
+     <CRender1/>
+     <hr/>
+     <CRender2/>
+     <hr/>
+     <CRender3/>
+     <hr/>
+     <CRender4/>
+     <hr/>
+     <Array1/>
+     <hr/>
+     <Array2/>
+     <hr/>
+     <Array3/>
   </div>
   );
 }
