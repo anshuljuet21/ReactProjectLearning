@@ -28,6 +28,12 @@ import CSSDemo1 from './Component/CSS/CSSDemo1';
 import CSSDemo2 from './Component/CSS/CSSDemo2';
 import CSSDemo3 from './Component/CSS/CSSDemo3';
 import Form1 from './Component/FormHandling/Form1';
+import Form2 from './Component/FormHandling/Form2';
+import Table from './Component/Fragment/Table';
+import PotalDemo from './Component/Portal/PotalDemo';
+import PHeader from './Component/Portal/PHeader';
+import Pfooter from './Component/Portal/Pfooter';
+import Pbody from './Component/Portal/Pbody';
 
 function App() {
   return (
@@ -95,8 +101,15 @@ function App() {
      <CSSDemo2/>
      <hr/>
      <CSSDemo3/>
-     <hr/> */}
+     <hr/> 
      <Form1/>
+     <hr/> 
+     <Form2/> 
+     <Table/>
+     <PotalDemo/> */}
+     <PHeader/>
+     <Pbody/>
+     <Pfooter/>
   </div>
   );
 }
