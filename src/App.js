@@ -24,6 +24,9 @@ import CRender4 from './Component/ConditionalRendring/CRender4';
 import Array1 from './Component/ArrayMapMethod/Array1';
 import Array2 from './Component/ArrayMapMethod/Array2';
 import Array3 from './Component/ArrayMapMethod/Array3';
+import CSSDemo1 from './Component/CSS/CSSDemo1';
+import CSSDemo2 from './Component/CSS/CSSDemo2';
+import CSSDemo3 from './Component/CSS/CSSDemo3';
 
 function App() {
   return (
@@ -85,6 +88,12 @@ function App() {
      <Array2/>
      <hr/>
      <Array3/>
+     <hr/>
+     <CSSDemo1/>
+     <hr/>
+     <CSSDemo2/>
+     <hr/>
+     <CSSDemo3/>
   </div>
   );
 }
