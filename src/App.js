@@ -27,6 +27,7 @@ import Array3 from './Component/ArrayMapMethod/Array3';
 import CSSDemo1 from './Component/CSS/CSSDemo1';
 import CSSDemo2 from './Component/CSS/CSSDemo2';
 import CSSDemo3 from './Component/CSS/CSSDemo3';
+import Form1 from './Component/FormHandling/Form1';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
      {/*<h1>Hello Anshul</h1>
      <Demo/>
      <Greet/>
-     <Democlass/>*/}
+     <Democlass/>
      <Prod id="1" name="iphone" price="140000">
      Category:Electronic
      </Prod>
@@ -94,6 +95,8 @@ function App() {
      <CSSDemo2/>
      <hr/>
      <CSSDemo3/>
+     <hr/> */}
+     <Form1/>
   </div>
   );
 }
