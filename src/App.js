@@ -34,6 +34,7 @@ import PotalDemo from './Component/Portal/PotalDemo';
 import PHeader from './Component/Portal/PHeader';
 import Pfooter from './Component/Portal/Pfooter';
 import Pbody from './Component/Portal/Pbody';
+import ComponentA from './Component/LifeCycleHooks/ComponentA';
 
 function App() {
   return (
@@ -106,10 +107,11 @@ function App() {
      <hr/> 
      <Form2/> 
      <Table/>
-     <PotalDemo/> */}
+     <PotalDemo/>
      <PHeader/>
      <Pbody/>
-     <Pfooter/>
+     <Pfooter/>  */}
+     <ComponentA />
   </div>
   );
 }
