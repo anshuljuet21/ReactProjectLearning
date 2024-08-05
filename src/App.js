@@ -35,6 +35,12 @@ import PHeader from './Component/Portal/PHeader';
 import Pfooter from './Component/Portal/Pfooter';
 import Pbody from './Component/Portal/Pbody';
 import ComponentA from './Component/LifeCycleHooks/ComponentA';
+import RegularComp from './Component/PureComponent/RegularComp';
+import SamplePureComp from './Component/PureComponent/SamplePureComp';
+import Parent1 from './Component/MemoComponent/Parent1';
+import RefDemo from './Component/Refs/RefDemo';
+import ProductComponent from './Component/ErrorHandling/ProductComponent';
+import ErrorHandler from './Component/ErrorHandling/ErrorHandler';
 
 function App() {
   return (
@@ -110,8 +116,20 @@ function App() {
      <PotalDemo/>
      <PHeader/>
      <Pbody/>
-     <Pfooter/>  */}
-     <ComponentA />
+     <Pfooter/>  
+     <ComponentA /> 
+     <RegularComp />
+     <hr/>
+     <SamplePureComp/> 
+     <Parent1 /> 
+     <RefDemo /> */}
+     <ErrorHandler>
+     <ProductComponent ProductName="Iphone" Category="Electronic"/>
+     </ErrorHandler>
+
+     <ErrorHandler>
+     <ProductComponent ProductName="Nexon" Category="AutoMobile"/>
+     </ErrorHandler>
   </div>
   );
 }

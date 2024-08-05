@@ -42,6 +42,7 @@ export class ComponentB extends Component {
 
     
   render() {
+    console.log('----Child Render------')
     return (
       <div>
         <h1>ComponentB</h1>
